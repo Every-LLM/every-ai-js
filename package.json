@@ -1,4 +1,30 @@
 {
   "name": "everyai",
-  "main": "src/everyai.js"
+  "main": "src/everyai.js",
+  "version": "1.0.1",
+  "description": "the best tool for developer to integrate all of the major AI models easily into your app",
+  "scripts": {
+    "test": "Everyai.generate(\"Hello World\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Every-LLM/every-ai-js.git"
+  },
+  "keywords": [
+    "AI",
+    "Tools",
+    "AI",
+    "Integration",
+    "AI",
+    "Chatgpt",
+    "Anthropic",
+    "Claude",
+    "Llama3.1"
+  ],
+  "author": "Enoch Tamulonis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Every-LLM/every-ai-js/issues"
+  },
+  "homepage": "https://github.com/Every-LLM/every-ai-js#readme"
 }

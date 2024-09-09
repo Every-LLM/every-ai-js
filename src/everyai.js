@@ -24,7 +24,7 @@ export default class Everyai {
   }
 
   async makeRequest() {
-    const domain = 'http://localhost:3000' // 'https://every-llm.com'
+    const domain = 'https://every-llm.com' //'http://localhost:3000' //
     const url = `${domain}/api/v1/generations`;
     const payload = {
       prompt: this.prompt,
