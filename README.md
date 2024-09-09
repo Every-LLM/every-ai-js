@@ -16,11 +16,11 @@ import Everyai from "everyai"
 
 Everyai.api_key = "my-secret-key"
 
-let results = Everyai.generate("Hello World!")
+let results = await Everyai.generate("Hello World!")
 console.log(results)
 // Hey back to you from your favorite AI model
 
-let results = Everyai.generate("Hello World", model: "chatgpt")
+let results = await Everyai.generate("Hello World", model: "chatgpt")
 console.log(results)
 // Hey I'm chatgpt ready to help you with your coding needs
 ```
