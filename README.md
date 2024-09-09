@@ -9,7 +9,7 @@ use npm
 
 ### Basic setup
 
-to use the everyai library in your app first you need to create an API key visit [https://every-llm.com](The Every AI Website) to create one now
+to use the everyai library in your app first you need to create an API key visit [The Every AI Website](https://every-llm.com) to create one now
 
 ```
 import Everyai from "everyai"
